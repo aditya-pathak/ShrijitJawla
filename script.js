@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Countdown Timer Logic
-    const countdownDate = new Date("December 28, 2025 00:00:00").getTime();
+    const countdownDate = new Date("December 28, 2025 11:00:00").getTime();
 
     const updateCountdown = () => {
         const now = new Date().getTime();
